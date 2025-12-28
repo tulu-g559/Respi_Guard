@@ -1,76 +1,76 @@
 {
   "meta_info": {
-    [cite_start]"document_title": "WHO global air quality guidelines: particulate matter (PM2.5 and PM10), ozone, nitrogen dioxide, sulfur dioxide and carbon monoxide [cite: 1]",
-    [cite_start]"publication_year": 2021[cite: 12],
-    [cite_start]"publisher": "World Health Organization [cite: 12]",
-    [cite_start]"objective": "Offer quantitative health-based recommendations for air quality management and interim targets for pollution reduction[cite: 62, 72].",
+    "document_title": "WHO global air quality guidelines: particulate matter (PM2.5 and PM10), ozone, nitrogen dioxide, sulfur dioxide and carbon monoxide",
+    "publication_year": "2021",
+    "publisher": "World Health Organization",
+    "objective": "Offer quantitative health-based recommendations for air quality management and interim targets for pollution reduction.",
     "target_audience": [
-      [cite_start]"Policy-makers and lawmakers [cite: 170]",
-      [cite_start]"Technical experts and urban planners [cite: 170]",
-      [cite_start]"Civil society and advocacy groups [cite: 171]",
-      [cite_start]"Academics and researchers [cite: 173]"
+      "Policy-makers and lawmakers",
+      "Technical experts and urban planners",
+      "Civil society and advocacy groups",
+      "Academics and researchers"
     ]
   },
   "general_health_risks": {
-    [cite_start]"burden_of_disease": "Air pollution is estimated to cause millions of deaths and lost years of healthy life annually[cite: 36].",
-    [cite_start]"associated_diseases": "Increases morbidity and mortality from cardiovascular and respiratory disease and lung cancer[cite: 42].",
-    [cite_start]"comparison": "The burden is on par with major global health risks such as unhealthy diet and tobacco smoking[cite: 37]."
+    "burden_of_disease": "Air pollution is estimated to cause millions of deaths and lost years of healthy life annually.",
+    "associated_diseases": "Increases morbidity and mortality from cardiovascular and respiratory disease and lung cancer.",
+    "comparison": "The burden is on par with major global health risks such as unhealthy diet and tobacco smoking."
   },
   "pollutant_standards": [
     {
       "pollutant": "Particulate Matter (PM2.5)",
-      [cite_start]"description": "Particles with an aerodynamic diameter of <= 2.5 µm[cite: 49].",
+      "description": "Particles with an aerodynamic diameter of <= 2.5 µm.",
       "measurements": [
         {
           "averaging_time": "Annual",
           "unit": "µg/m³",
           "levels": [
-            [cite_start]{ "type": "Interim Target 1", "value": 35, "citation": "[cite: 95]" },
-            [cite_start]{ "type": "Interim Target 2", "value": 25, "citation": "[cite: 95]" },
-            [cite_start]{ "type": "Interim Target 3", "value": 15, "citation": "[cite: 95]" },
-            [cite_start]{ "type": "Interim Target 4", "value": 10, "citation": "[cite: 95]" },
-            [cite_start]{ "type": "AQG Level (Ultimate Goal)", "value": 5, "citation": "[cite: 95]" }
+            { "type": "Interim Target 1", "value": 35, "citation": "" },
+            { "type": "Interim Target 2", "value": 25, "citation": "" },
+            { "type": "Interim Target 3", "value": 15, "citation": "" },
+            { "type": "Interim Target 4", "value": 10, "citation": "" },
+            { "type": "AQG Level (Ultimate Goal)", "value": 5, "citation": "" }
           ]
         },
         {
           "averaging_time": "24-hour",
           "unit": "µg/m³",
-          [cite_start]"percentile_note": "99th percentile (i.e. 3-4 exceedance days per year) [cite: 96]",
+          "percentile_note": "99th percentile (i.e. 3-4 exceedance days per year)",
           "levels": [
-            [cite_start]{ "type": "Interim Target 1", "value": 75, "citation": "[cite: 95]" },
-            [cite_start]{ "type": "Interim Target 2", "value": 50, "citation": "[cite: 95]" },
-            [cite_start]{ "type": "Interim Target 3", "value": 37.5, "citation": "[cite: 95]" },
-            [cite_start]{ "type": "Interim Target 4", "value": 25, "citation": "[cite: 95]" },
-            [cite_start]{ "type": "AQG Level (Ultimate Goal)", "value": 15, "citation": "[cite: 95]" }
+            { "type": "Interim Target 1", "value": 75, "citation": "" },
+            { "type": "Interim Target 2", "value": 50, "citation": "" },
+            { "type": "Interim Target 3", "value": 37.5, "citation": "" },
+            { "type": "Interim Target 4", "value": 25, "citation": "" },
+            { "type": "AQG Level (Ultimate Goal)", "value": 15, "citation": "" }
           ]
         }
       ]
     },
     {
       "pollutant": "Particulate Matter (PM10)",
-      [cite_start]"description": "Particles with an aerodynamic diameter of <= 10 µm[cite: 50].",
+      "description": "Particles with an aerodynamic diameter of <= 10 µm.",
       "measurements": [
         {
           "averaging_time": "Annual",
           "unit": "µg/m³",
           "levels": [
-            [cite_start]{ "type": "Interim Target 1", "value": 70, "citation": "[cite: 95]" },
-            [cite_start]{ "type": "Interim Target 2", "value": 50, "citation": "[cite: 95]" },
-            [cite_start]{ "type": "Interim Target 3", "value": 30, "citation": "[cite: 95]" },
-            [cite_start]{ "type": "Interim Target 4", "value": 20, "citation": "[cite: 95]" },
-            [cite_start]{ "type": "AQG Level (Ultimate Goal)", "value": 15, "citation": "[cite: 95]" }
+            { "type": "Interim Target 1", "value": 70, "citation": "" },
+            { "type": "Interim Target 2", "value": 50, "citation": "" },
+            { "type": "Interim Target 3", "value": 30, "citation": "" },
+            { "type": "Interim Target 4", "value": 20, "citation": "" },
+            { "type": "AQG Level (Ultimate Goal)", "value": 15, "citation": "" }
           ]
         },
         {
           "averaging_time": "24-hour",
           "unit": "µg/m³",
-          [cite_start]"percentile_note": "99th percentile (i.e. 3-4 exceedance days per year) [cite: 96]",
+          "percentile_note": "99th percentile (i.e. 3-4 exceedance days per year)",
           "levels": [
-            [cite_start]{ "type": "Interim Target 1", "value": 150, "citation": "[cite: 95]" },
-            [cite_start]{ "type": "Interim Target 2", "value": 100, "citation": "[cite: 95]" },
-            [cite_start]{ "type": "Interim Target 3", "value": 75, "citation": "[cite: 95]" },
-            [cite_start]{ "type": "Interim Target 4", "value": 50, "citation": "[cite: 95]" },
-            [cite_start]{ "type": "AQG Level (Ultimate Goal)", "value": 45, "citation": "[cite: 95]" }
+            { "type": "Interim Target 1", "value": 150, "citation": "" },
+            { "type": "Interim Target 2", "value": 100, "citation": "" },
+            { "type": "Interim Target 3", "value": 75, "citation": "" },
+            { "type": "Interim Target 4", "value": 50, "citation": "" },
+            { "type": "AQG Level (Ultimate Goal)", "value": 45, "citation": "" }
           ]
         }
       ]
@@ -81,21 +81,21 @@
         {
           "averaging_time": "Peak season",
           "unit": "µg/m³",
-          [cite_start]"definition": "Average of daily maximum 8-hour mean O3 concentration in the six consecutive months with the highest six-month running-average O3 concentration[cite: 97].",
+          "definition": "Average of daily maximum 8-hour mean O3 concentration in the six consecutive months with the highest six-month running-average O3 concentration.",
           "levels": [
-            [cite_start]{ "type": "Interim Target 1", "value": 100, "citation": "[cite: 95]" },
-            [cite_start]{ "type": "Interim Target 2", "value": 70, "citation": "[cite: 95]" },
-            [cite_start]{ "type": "AQG Level (Ultimate Goal)", "value": 60, "citation": "[cite: 95]" }
+            { "type": "Interim Target 1", "value": 100, "citation": "" },
+            { "type": "Interim Target 2", "value": 70, "citation": "" },
+            { "type": "AQG Level (Ultimate Goal)", "value": 60, "citation": "" }
           ]
         },
         {
           "averaging_time": "8-hour",
           "unit": "µg/m³",
-          [cite_start]"percentile_note": "99th percentile (i.e. 3-4 exceedance days per year) [cite: 96]",
+          "percentile_note": "99th percentile (i.e. 3-4 exceedance days per year)",
           "levels": [
-            [cite_start]{ "type": "Interim Target 1", "value": 160, "citation": "[cite: 95]" },
-            [cite_start]{ "type": "Interim Target 2", "value": 120, "citation": "[cite: 95]" },
-            [cite_start]{ "type": "AQG Level (Ultimate Goal)", "value": 100, "citation": "[cite: 95]" }
+            { "type": "Interim Target 1", "value": 160, "citation": "" },
+            { "type": "Interim Target 2", "value": 120, "citation": "" },
+            { "type": "AQG Level (Ultimate Goal)", "value": 100, "citation": "" }
           ]
         }
       ]
@@ -107,27 +107,27 @@
           "averaging_time": "Annual",
           "unit": "µg/m³",
           "levels": [
-            [cite_start]{ "type": "Interim Target 1", "value": 40, "citation": "[cite: 95]" },
-            [cite_start]{ "type": "Interim Target 2", "value": 30, "citation": "[cite: 95]" },
-            [cite_start]{ "type": "Interim Target 3", "value": 20, "citation": "[cite: 95]" },
-            [cite_start]{ "type": "AQG Level (Ultimate Goal)", "value": 10, "citation": "[cite: 95]" }
+            { "type": "Interim Target 1", "value": 40, "citation": "" },
+            { "type": "Interim Target 2", "value": 30, "citation": "" },
+            { "type": "Interim Target 3", "value": 20, "citation": "" },
+            { "type": "AQG Level (Ultimate Goal)", "value": 10, "citation": "" }
           ]
         },
         {
           "averaging_time": "24-hour",
           "unit": "µg/m³",
-          [cite_start]"percentile_note": "99th percentile (i.e. 3-4 exceedance days per year) [cite: 96]",
+          "percentile_note": "99th percentile (i.e. 3-4 exceedance days per year)",
           "levels": [
-            [cite_start]{ "type": "Interim Target 1", "value": 120, "citation": "[cite: 95]" },
-            [cite_start]{ "type": "Interim Target 2", "value": 50, "citation": "[cite: 95]" },
-            [cite_start]{ "type": "AQG Level (Ultimate Goal)", "value": 25, "citation": "[cite: 95]" }
+            { "type": "Interim Target 1", "value": 120, "citation": "" },
+            { "type": "Interim Target 2", "value": 50, "citation": "" },
+            { "type": "AQG Level (Ultimate Goal)", "value": 25, "citation": "" }
           ]
         },
         {
           "averaging_time": "1-hour (Short-term)",
           "unit": "µg/m³",
           "levels": [
-            [cite_start]{ "type": "Existing Guideline (Valid)", "value": 200, "citation": "[cite: 107]" }
+            { "type": "Existing Guideline (Valid)", "value": 200, "citation": "" }
           ]
         }
       ]
@@ -138,18 +138,18 @@
         {
           "averaging_time": "24-hour",
           "unit": "µg/m³",
-          [cite_start]"percentile_note": "99th percentile (i.e. 3-4 exceedance days per year) [cite: 96]",
+          "percentile_note": "99th percentile (i.e. 3-4 exceedance days per year)",
           "levels": [
-            [cite_start]{ "type": "Interim Target 1", "value": 125, "citation": "[cite: 95]" },
-            [cite_start]{ "type": "Interim Target 2", "value": 50, "citation": "[cite: 95]" },
-            [cite_start]{ "type": "AQG Level (Ultimate Goal)", "value": 40, "citation": "[cite: 95]" }
+            { "type": "Interim Target 1", "value": 125, "citation": "" },
+            { "type": "Interim Target 2", "value": 50, "citation": "" },
+            { "type": "AQG Level (Ultimate Goal)", "value": 40, "citation": "" }
           ]
         },
         {
           "averaging_time": "10-minute (Short-term)",
           "unit": "µg/m³",
           "levels": [
-            [cite_start]{ "type": "Existing Guideline (Valid)", "value": 500, "citation": "[cite: 107]" }
+            { "type": "Existing Guideline (Valid)", "value": 500, "citation": "" }
           ]
         }
       ]
@@ -160,31 +160,31 @@
         {
           "averaging_time": "24-hour",
           "unit": "mg/m³",
-          [cite_start]"percentile_note": "99th percentile (i.e. 3-4 exceedance days per year) [cite: 96]",
+          "percentile_note": "99th percentile (i.e. 3-4 exceedance days per year)",
           "levels": [
-            [cite_start]{ "type": "Interim Target 1", "value": 7, "citation": "[cite: 95]" },
-            [cite_start]{ "type": "AQG Level (Ultimate Goal)", "value": 4, "citation": "[cite: 95]" }
+            { "type": "Interim Target 1", "value": 7, "citation": "" },
+            { "type": "AQG Level (Ultimate Goal)", "value": 4, "citation": "" }
           ]
         },
         {
           "averaging_time": "8-hour (Short-term)",
           "unit": "mg/m³",
           "levels": [
-            [cite_start]{ "type": "Existing Guideline (Valid)", "value": 10, "citation": "[cite: 107]" }
+            { "type": "Existing Guideline (Valid)", "value": 10, "citation": "" }
           ]
         },
         {
           "averaging_time": "1-hour (Short-term)",
           "unit": "mg/m³",
           "levels": [
-            [cite_start]{ "type": "Existing Guideline (Valid)", "value": 35, "citation": "[cite: 107]" }
+            { "type": "Existing Guideline (Valid)", "value": 35, "citation": "" }
           ]
         },
         {
           "averaging_time": "15-minute (Short-term)",
           "unit": "mg/m³",
           "levels": [
-            [cite_start]{ "type": "Existing Guideline (Valid)", "value": 100, "citation": "[cite: 107]" }
+            { "type": "Existing Guideline (Valid)", "value": 100, "citation": "" }
           ]
         }
       ]
@@ -194,36 +194,36 @@
     {
       "pollutant": "Black Carbon / Elemental Carbon (BC/EC)",
       "actions": [
-        [cite_start]"Make systematic measurements of black carbon and/or elemental carbon[cite: 136].",
-        [cite_start]"Measurements should not replace or reduce existing monitoring of pollutants for which guidelines currently exist[cite: 136].",
-        [cite_start]"Undertake the production of emission inventories, exposure assessments, and source apportionment for BC/EC[cite: 137].",
-        [cite_start]"Take measures to reduce BC/EC emissions from within the relevant jurisdiction[cite: 142].",
-        [cite_start]"Where appropriate, develop standards (or targets) for ambient BC/EC concentrations[cite: 142]."
+        "Make systematic measurements of black carbon and/or elemental carbon.",
+        "Measurements should not replace or reduce existing monitoring of pollutants for which guidelines currently exist.",
+        "Undertake the production of emission inventories, exposure assessments, and source apportionment for BC/EC.",
+        "Take measures to reduce BC/EC emissions from within the relevant jurisdiction.",
+        "Where appropriate, develop standards (or targets) for ambient BC/EC concentrations."
       ]
     },
     {
       "pollutant": "Ultrafine Particles (UFP)",
-      [cite_start]"description": "Quantify ambient UFP in terms of Particle Number Concentration (PNC) for a size range with a lower limit of <= 10 nm[cite: 146].",
-      [cite_start]"monitoring_strategy": "Expand common air quality monitoring by integrating UFP monitoring, including size-segregated real-time PNC measurements[cite: 147, 148].",
+      "description": "Quantify ambient UFP in terms of Particle Number Concentration (PNC) for a size range with a lower limit of <= 10 nm.",
+      "monitoring_strategy": "Expand common air quality monitoring by integrating UFP monitoring, including size-segregated real-time PNC measurements.",
       "threshold_distinctions": {
-        [cite_start]"Low PNC": "< 1,000 particles/cm³ (24-hour mean)[cite: 150].",
-        [cite_start]"High PNC": "> 10,000 particles/cm³ (24-hour mean) OR 20,000 particles/cm³ (1-hour mean)[cite: 151]."
+        "Low PNC": "< 1,000 particles/cm³ (24-hour mean).",
+        "High PNC": "> 10,000 particles/cm³ (24-hour mean) OR 20,000 particles/cm³ (1-hour mean)."
       },
       "actions": [
-        [cite_start]"Distinguish between low and high PNC to guide decisions on priorities for source emission control[cite: 149].",
-        [cite_start]"Utilize emerging science/technology to advance approaches to exposure assessment[cite: 152]."
+        "Distinguish between low and high PNC to guide decisions on priorities for source emission control.",
+        "Utilize emerging science/technology to advance approaches to exposure assessment."
       ]
     },
     {
       "pollutant": "Sand and Dust Storms (SDS)",
       "actions": [
-        [cite_start]"Maintain suitable air quality management and dust forecasting programmes, including early warning systems[cite: 155].",
-        [cite_start]"Activate short-term air pollution action plans to alert the population to stay indoors during SDS incidents[cite: 155].",
-        [cite_start]"Take personal measures to minimize exposure during SDS incidents with high levels of PM[cite: 155].",
-        [cite_start]"Maintain source apportionment activities to quantify the percentage contribution of SDS to overall PM[cite: 156].",
-        [cite_start]"Target local PM emissions from anthropogenic and natural sources for reduction[cite: 157].",
-        [cite_start]"Implement wind erosion control through the carefully planned expansion of green spaces[cite: 162].",
-        [cite_start]"Clean streets in urban areas with high population density and low rainfall to prevent resuspension by road traffic after intense SDS episodes[cite: 164]."
+        "Maintain suitable air quality management and dust forecasting programmes, including early warning systems.",
+        "Activate short-term air pollution action plans to alert the population to stay indoors during SDS incidents.",
+        "Take personal measures to minimize exposure during SDS incidents with high levels of PM.",
+        "Maintain source apportionment activities to quantify the percentage contribution of SDS to overall PM.",
+        "Target local PM emissions from anthropogenic and natural sources for reduction.",
+        "Implement wind erosion control through the carefully planned expansion of green spaces.",
+        "Clean streets in urban areas with high population density and low rainfall to prevent resuspension by road traffic after intense SDS episodes."
       ]
     }
   ]

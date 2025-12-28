@@ -7,33 +7,38 @@
     "purpose": "Aid health assessors in evaluating PM data, selecting comparison values (CVs), and reaching public health conclusions."
   },
   "section_1_introduction": {
-    [cite_start]"definition": "Particulate matter (PM) is a generic term for chemically and physically diverse solid particles and liquid droplets found in ambient air[cite: 247].",
+    "definition": "Particulate matter (PM) is a generic term for chemically and physically diverse solid particles and liquid droplets found in ambient air.",
     "sources": {
-      "anthropogenic": ["Stationary (e.g., coal-fired power plants)", "Mobile (e.g., cars and trucks)"],
-      "natural": ["Dust storms"],
-      [cite_start]"formation": "Direct emission or formed in atmosphere via reactions involving SO2 and NO2[cite: 248, 249]."
+      "anthropogenic": [
+        "Stationary (e.g., coal-fired power plants)",
+        "Mobile (e.g., cars and trucks)"
+      ],
+      "natural": [
+        "Dust storms"
+      ],
+      "formation": "Direct emission or formed in atmosphere via reactions involving SO2 and NO2."
     },
     "classification": [
       {
         "type": "Ultrafine Particles (UFP)",
         "size": "≤ 0.1 µm",
-        "notes": "Not routinely characterized due to limitations in analysis. [cite_start]No health-based screening values exist yet[cite: 264, 269]."
+        "notes": "Not routinely characterized due to limitations in analysis. No health-based screening values exist yet."
       },
       {
         "type": "Fine Particles (PM2.5)",
         "size": "≤ 2.5 µm",
         "composition": "Combustion particles, organic compounds, metals.",
-        [cite_start]"behavior": "Reflects regional air quality; travels long distances; penetrates deep into lungs/bloodstream[cite: 256, 266]."
+        "behavior": "Reflects regional air quality; travels long distances; penetrates deep into lungs/bloodstream."
       },
       {
         "type": "Thoracic Particles (PM10)",
         "size": "≤ 10 µm",
         "composition": "Dust, pollen, mold.",
-        [cite_start]"behavior": "Reflects contribution of local sources[cite: 258, 267]."
+        "behavior": "Reflects contribution of local sources."
       },
       {
         "type": "Thoracic Coarse Particles (PM10-2.5)",
-        [cite_start]"size": "Between 2.5 µm and 10 µm[cite: 266]."
+        "size": "Between 2.5 µm and 10 µm."
       }
     ],
     "health_effects_summary": [
@@ -43,12 +48,19 @@
       "Respiratory effects (aggravated asthma, decreased lung function, coughing)",
       "Diabetes",
       "Impaired neurological development in children and 'brain aging' in adults",
-      [cite_start]"Lung cancer[cite: 272, 273, 274, 275, 277, 278, 279]."
+      "Lung cancer."
     ],
     "sensitive_populations": {
-      "sensitive": ["Pregnant women", "Children", "Older adults (≥65 years)"],
-      "highly_sensitive": ["Individuals with pre-existing respiratory disease (asthma, COPD)", "Individuals with cardiovascular disease"],
-      [cite_start]"socioeconomic_factors": "People of lower socioeconomic status are more likely to have increased risk due to greater exposure and less access to healthcare[cite: 280, 281, 282]."
+      "sensitive": [
+        "Pregnant women",
+        "Children",
+        "Older adults (≥65 years)"
+      ],
+      "highly_sensitive": [
+        "Individuals with pre-existing respiratory disease (asthma, COPD)",
+        "Individuals with cardiovascular disease"
+      ],
+      "socioeconomic_factors": "People of lower socioeconomic status are more likely to have increased risk due to greater exposure and less access to healthcare."
     }
   },
   "section_2_evaluation_process": {
@@ -59,53 +71,53 @@
           "on_site": "Occupational exposures; likely overestimate of community exposure.",
           "perimeter_fenceline": "Proxy for highest exposure for nearby community.",
           "residential": "Measures ambient levels where general population is exposed.",
-          [cite_start]"modeled_maximum_impact": "Monitors placed where modeling predicts highest concentrations[cite: 300, 301, 303, 304]."
+          "modeled_maximum_impact": "Monitors placed where modeling predicts highest concentrations."
         }
       },
       {
         "factor": "Data Context",
-        "guidance": "Compare site data to background monitors. [cite_start]If site levels are high but consistent with regional monitors, PM is likely regional rather than site-specific[cite: 317]."
+        "guidance": "Compare site data to background monitors. If site levels are high but consistent with regional monitors, PM is likely regional rather than site-specific."
       }
     ],
     "decision_tree_workflow": {
       "step_1_data_averaging": {
-        [cite_start]"action": "Evaluate 1-hour, 24-hour, and annual averages[cite: 343].",
-        [cite_start]"rule": "Use the most highly resolved increment (e.g., if data is 1-minute, average to 1-hour, 24-hour, etc.)[cite: 378]."
+        "action": "Evaluate 1-hour, 24-hour, and annual averages.",
+        "rule": "Use the most highly resolved increment (e.g., if data is 1-minute, average to 1-hour, 24-hour, etc.)."
       },
       "step_2_screening": {
         "acute_path": {
-          [cite_start]"question": "Does maximum 24-hour average exceed 24-hour WHO AQG? [cite: 344]",
-          [cite_start]"branch_yes": "Go to Step 3 (Data Evaluation) -> Criteria Met -> Exposure could harm health[cite: 365].",
+          "question": "Does maximum 24-hour average exceed 24-hour WHO AQG?",
+          "branch_yes": "Go to Step 3 (Data Evaluation) -> Criteria Met -> Exposure could harm health.",
           "branch_no": {
-            [cite_start]"question": "Does maximum 1-hour average exceed 24-hour AQG? [cite: 348]",
-            [cite_start]"branch_yes": "Use cautionary language from Scenario 1[cite: 352].",
-            [cite_start]"branch_no": "Exposures are unlikely to harm health[cite: 353]."
+            "question": "Does maximum 1-hour average exceed 24-hour AQG?",
+            "branch_yes": "Use cautionary language from Scenario 1.",
+            "branch_no": "Exposures are unlikely to harm health."
           }
         },
         "chronic_path": {
-          [cite_start]"question": "Does annual average exceed annual WHO AQG? [cite: 347]",
-          [cite_start]"branch_yes": "Go to Step 3 -> Criteria Met -> Exposure could harm health[cite: 365].",
-          [cite_start]"branch_no": "Assume no public health hazard[cite: 358]."
+          "question": "Does annual average exceed annual WHO AQG?",
+          "branch_yes": "Go to Step 3 -> Criteria Met -> Exposure could harm health.",
+          "branch_no": "Assume no public health hazard."
         }
       },
       "step_3_data_evaluation": {
-        [cite_start]"action": "Further evaluate air quality and put into context[cite: 355].",
+        "action": "Further evaluate air quality and put into context.",
         "criteria_met_actions": [
           "24-hour average: Use AQI table (Appendix B) to determine health statements.",
-          [cite_start]"Annual average: Acknowledge exceedance of annual AQGs[cite: 366, 367]."
+          "Annual average: Acknowledge exceedance of annual AQGs."
         ]
       }
     }
   },
   "screening_values_table_1": {
-    [cite_start]"source": "WHO Global Air Quality Guidelines 2021 [cite: 405]",
+    "source": "WHO Global Air Quality Guidelines 2021",
     "values": [
       {
         "pollutant": "PM10",
         "averaging_time": "24-hour",
         "value": 45,
         "unit": "µg/m³",
-        [cite_start]"note": "ATSDR uses unadjusted values, not percentiles[cite: 393]."
+        "note": "ATSDR uses unadjusted values, not percentiles."
       },
       {
         "pollutant": "PM10",
@@ -129,21 +141,29 @@
   },
   "short_term_exposure_logic": {
     "context": "No sub-acute AQG exists for <24 hours. However, continuous data is often hourly.",
-    [cite_start]"rule": "If data is reported in increments less than an hour, average hourly[cite: 418].",
-    "justification": "Literature suggests effects observed at concentrations at or below the 24-hour AQG. [cite_start]Therefore, 24-hour AQGs can be compared to sample durations as short as 1-hour for screening[cite: 466]."
+    "rule": "If data is reported in increments less than an hour, average hourly.",
+    "justification": "Literature suggests effects observed at concentrations at or below the 24-hour AQG. Therefore, 24-hour AQGs can be compared to sample durations as short as 1-hour for screening."
   },
   "health_outcome_studies_table_2": {
-    [cite_start]"source": "EPA 2019 Integrated Science Assessment [cite: 447]",
+    "source": "EPA 2019 Integrated Science Assessment",
     "rows": [
       {
         "endpoint": "Respiratory (Short-term)",
         "description": "Hospital admissions/ED visits for asthma, COPD, infections",
-        "concentrations": { "US_Canada": "4.7-24.6 µg/m³", "Europe": "8.8-27.7 µg/m³", "Asia": "11.8-69.9 µg/m³" }
+        "concentrations": {
+          "US_Canada": "4.7-24.6 µg/m³",
+          "Europe": "8.8-27.7 µg/m³",
+          "Asia": "11.8-69.9 µg/m³"
+        }
       },
       {
         "endpoint": "Respiratory (Short-term)",
         "description": "Respiratory mortality",
-        "concentrations": { "US_Canada": "7.9-19.9 µg/m³", "Europe": "8.0-27.7 µg/m³", "Asia": "11.8-69.9 µg/m³" }
+        "concentrations": {
+          "US_Canada": "7.9-19.9 µg/m³",
+          "Europe": "8.0-27.7 µg/m³",
+          "Asia": "11.8-69.9 µg/m³"
+        }
       },
       {
         "endpoint": "Respiratory (Long-term)",
@@ -213,90 +233,103 @@
       {
         "endpoint": "Cancer (Long-term)",
         "description": "Lung cancer incidence and mortality",
-        "concentrations": { "US_Canada": "6.3-23.6 µg/m³", "Europe": "6.6-31.0 µg/m³", "Asia": "33.7 µg/m³" }
+        "concentrations": {
+          "US_Canada": "6.3-23.6 µg/m³",
+          "Europe": "6.6-31.0 µg/m³",
+          "Asia": "33.7 µg/m³"
+        }
       },
       {
         "endpoint": "Mortality (Short-term)",
         "description": "Total mortality",
-        "concentrations": { "US_Canada": "4.37-17.97 µg/m³", "Europe": "13-27.7 µg/m³", "Asia": "11.8-69.9 µg/m³" }
+        "concentrations": {
+          "US_Canada": "4.37-17.97 µg/m³",
+          "Europe": "13-27.7 µg/m³",
+          "Asia": "11.8-69.9 µg/m³"
+        }
       },
       {
         "endpoint": "Mortality (Long-term)",
         "description": "Total mortality",
-        "concentrations": { "ACS_HSC_cohorts": "11.4-23.6 µg/m³", "Medicare_cohort": "12-12.0 µg/m³", "Canadian_cohorts": "8.7-9.1 µg/m³", "Employment_cohorts": "12.7-17.0 µg/m³" }
+        "concentrations": {
+          "ACS_HSC_cohorts": "11.4-23.6 µg/m³",
+          "Medicare_cohort": "12-12.0 µg/m³",
+          "Canadian_cohorts": "8.7-9.1 µg/m³",
+          "Employment_cohorts": "12.7-17.0 µg/m³"
+        }
       }
     ]
   },
   "scenarios_and_language": {
     "scenario_1": {
-      [cite_start]"condition": "Appropriately averaged data are consistently below AQGs[cite: 517].",
+      "condition": "Appropriately averaged data are consistently below AQGs.",
       "special_case": "Hourly averages exceed acute AQG, but 24-hour average is below acute AQG.",
-      "suggested_conclusion": "PM levels had maximum 1-hour concentrations of over X,XXX µg/m³; however, 24-hour averages were below the AQG. [cite_start]Exposure to PM levels above the AQG has the potential to trigger acute health conditions in highly sensitive and sensitive individuals, even over exposure periods of less than 24 hours[cite: 530].",
-      [cite_start]"alternative_conclusion": "Individuals with cardiopulmonary illness may have a slightly increased risk of the exacerbation of their health conditions... with intermittent short-term exposures[cite: 532]."
+      "suggested_conclusion": "PM levels had maximum 1-hour concentrations of over X,XXX µg/m³; however, 24-hour averages were below the AQG. Exposure to PM levels above the AQG has the potential to trigger acute health conditions in highly sensitive and sensitive individuals, even over exposure periods of less than 24 hours.",
+      "alternative_conclusion": "Individuals with cardiopulmonary illness may have a slightly increased risk of the exacerbation of their health conditions... with intermittent short-term exposures."
     },
     "scenario_2": {
-      [cite_start]"condition": "Appropriately averaged data are above AQGs[cite: 535].",
-      [cite_start]"short_term_conclusion": "Exposure to elevated concentrations of PM2.5 and/or PM10 could harm public health because of an increased risk for adverse health effects among [insert site-specific population of concern][cite: 550].",
-      [cite_start]"long_term_conclusion": "Prolonged exposures to PM above the AQGs may slightly increase the likelihood of harm for individuals with pre-existing health conditions, such as cardiopulmonary disease[cite: 556].",
-      [cite_start]"recommendation": "Sensitive individuals should consider reducing prolonged or heavy physical activity on days with moderate to unhealthy air quality[cite: 558]."
+      "condition": "Appropriately averaged data are above AQGs.",
+      "short_term_conclusion": "Exposure to elevated concentrations of PM2.5 and/or PM10 could harm public health because of an increased risk for adverse health effects among [insert site-specific population of concern].",
+      "long_term_conclusion": "Prolonged exposures to PM above the AQGs may slightly increase the likelihood of harm for individuals with pre-existing health conditions, such as cardiopulmonary disease.",
+      "recommendation": "Sensitive individuals should consider reducing prolonged or heavy physical activity on days with moderate to unhealthy air quality."
     }
   },
   "appendix_a_national_data_summaries": {
     "table_a1_pm10_24hr_trends": {
-      [cite_start]"description": "Peak 24-hour PM10 concentrations in the U.S. (1990-2022)[cite: 663].",
+      "description": "Peak 24-hour PM10 concentrations in the U.S. (1990-2022).",
       "data": [
-        {"year": 1990, "median": 79, "average": 89, "90th_percentile": 162, "10th_percentile": 45},
-        {"year": 1995, "median": 63, "average": 75, "90th_percentile": 134, "10th_percentile": 37},
-        {"year": 2000, "median": 58, "average": 66, "90th_percentile": 107, "10th_percentile": 35},
-        {"year": 2005, "median": 56, "average": 60, "90th_percentile": 98, "10th_percentile": 32},
-        {"year": 2010, "median": 47, "average": 49, "90th_percentile": 73, "10th_percentile": 27},
-        {"year": 2015, "median": 46, "average": 56, "90th_percentile": 78, "10th_percentile": 29},
-        {"year": 2020, "median": 50, "average": 69, "90th_percentile": 120, "10th_percentile": 24},
-        {"year": 2022, "median": 51, "average": 59, "90th_percentile": 97, "10th_percentile": 25}
+        { "year": 1990, "median": 79, "average": 89, "90th_percentile": 162, "10th_percentile": 45 },
+        { "year": 1995, "median": 63, "average": 75, "90th_percentile": 134, "10th_percentile": 37 },
+        { "year": 2000, "median": 58, "average": 66, "90th_percentile": 107, "10th_percentile": 35 },
+        { "year": 2005, "median": 56, "average": 60, "90th_percentile": 98, "10th_percentile": 32 },
+        { "year": 2010, "median": 47, "average": 49, "90th_percentile": 73, "10th_percentile": 27 },
+        { "year": 2015, "median": 46, "average": 56, "90th_percentile": 78, "10th_percentile": 29 },
+        { "year": 2020, "median": 50, "average": 69, "90th_percentile": 120, "10th_percentile": 24 },
+        { "year": 2022, "median": 51, "average": 59, "90th_percentile": 97, "10th_percentile": 25 }
       ]
     },
     "table_a3_pm10_annual_exceedances": {
-      [cite_start]"description": "Percent of PM10 Monitoring Sites in the U.S. with Annual Average > 15 µg/m³[cite: 679].",
+      "description": "Percent of PM10 Monitoring Sites in the U.S. with Annual Average > 15 µg/m³.",
       "data": [
-        {"year": 2011, "percent_exceeding": 56},
-        {"year": 2012, "percent_exceeding": 57},
-        {"year": 2013, "percent_exceeding": 51},
-        {"year": 2014, "percent_exceeding": 51},
-        {"year": 2015, "percent_exceeding": 47},
-        {"year": 2016, "percent_exceeding": 47},
-        {"year": 2017, "percent_exceeding": 50},
-        {"year": 2018, "percent_exceeding": 48},
-        {"year": 2019, "percent_exceeding": 47},
-        {"year": 2020, "percent_exceeding": 71},
-        {"year": 2021, "percent_exceeding": 55},
-        {"year": 2022, "percent_exceeding": 47}
+        { "year": 2011, "percent_exceeding": 56 },
+        { "year": 2012, "percent_exceeding": 57 },
+        { "year": 2013, "percent_exceeding": 51 },
+        { "year": 2014, "percent_exceeding": 51 },
+        { "year": 2015, "percent_exceeding": 47 },
+        { "year": 2016, "percent_exceeding": 47 },
+        { "year": 2017, "percent_exceeding": 50 },
+        { "year": 2018, "percent_exceeding": 48 },
+        { "year": 2019, "percent_exceeding": 47 },
+        { "year": 2020, "percent_exceeding": 71 },
+        { "year": 2021, "percent_exceeding": 55 },
+        { "year": 2022, "percent_exceeding": 47 }
       ]
     },
     "table_a4_pm25_24hr_trends": {
-      [cite_start]"description": "Peak 24-hour PM2.5 concentrations in the U.S. (2000-2022)[cite: 705].",
+      "description": "Peak 24-hour PM2.5 concentrations in the U.S. (2000-2022).",
       "data": [
-        {"year": 2000, "median": 33.7, "average": 35, "90th_percentile": 47, "10th_percentile": 22.3},
-        {"year": 2005, "median": 33.9, "average": 34, "90th_percentile": 44.7, "10th_percentile": 19.55},
-        {"year": 2010, "median": 24.6, "average": 25, "90th_percentile": 33.4, "10th_percentile": 15.9},
-        {"year": 2015, "median": 21.4, "average": 22, "90th_percentile": 29.5, "10th_percentile": 15.2},
-        {"year": 2020, "median": 19, "average": 25, "90th_percentile": 42.4, "10th_percentile": 14},
-        {"year": 2022, "median": 18.2, "average": 20, "90th_percentile": 27.5, "10th_percentile": 13.3}
+        { "year": 2000, "median": 33.7, "average": 35, "90th_percentile": 47, "10th_percentile": 22.3 },
+        { "year": 2005, "median": 33.9, "average": 34, "90th_percentile": 44.7, "10th_percentile": 19.55 },
+        { "year": 2010, "median": 24.6, "average": 25, "90th_percentile": 33.4, "10th_percentile": 15.9 },
+        { "year": 2015, "median": 21.4, "average": 22, "90th_percentile": 29.5, "10th_percentile": 15.2 },
+        { "year": 2020, "median": 19, "average": 25, "90th_percentile": 42.4, "10th_percentile": 14 },
+        { "year": 2022, "median": 18.2, "average": 20, "90th_percentile": 27.5, "10th_percentile": 13.3 }
       ]
     },
     "table_a5_pm25_annual_trends": {
-      [cite_start]"description": "Annual average PM2.5 concentrations in the U.S. (2000-2022)[cite: 739].",
+      "description": "Annual average PM2.5 concentrations in the U.S. (2000-2022).",
       "data": [
-        {"year": 2000, "median": 14, "average": 14, "90th_percentile": 18, "10th_percentile": 8.8},
-        {"year": 2005, "median": 13, "average": 13, "90th_percentile": 17, "10th_percentile": 7.8},
-        {"year": 2010, "median": 10, "average": 10, "90th_percentile": 13, "10th_percentile": 6.7},
-        {"year": 2015, "median": 8.6, "average": 8.6, "90th_percentile": 11, "10th_percentile": 6.2},
-        {"year": 2020, "median": 7.6, "average": 8.1, "90th_percentile": 11, "10th_percentile": 5.9},
-        {"year": 2022, "median": 7.7, "average": 7.8, "90th_percentile": 10, "10th_percentile": 5.8}
+        { "year": 2000, "median": 14, "average": 14, "90th_percentile": 18, "10th_percentile": 8.8 },
+        { "year": 2005, "median": 13, "average": 13, "90th_percentile": 17, "10th_percentile": 7.8 },
+        { "year": 2010, "median": 10, "average": 10, "90th_percentile": 13, "10th_percentile": 6.7 },
+        { "year": 2015, "median": 8.6, "average": 8.6, "90th_percentile": 11, "10th_percentile": 6.2 },
+        { "year": 2020, "median": 7.6, "average": 8.1, "90th_percentile": 11, "10th_percentile": 5.9 },
+        { "year": 2022, "median": 7.7, "average": 7.8, "90th_percentile": 10, "10th_percentile": 5.8 }
       ]
     }
   },
   "appendix_b_aqi_designations": {
-    "source": "U.S. [cite_start]EPA Particulate Matter AQI Designations and Health Statements [cite: 754]",
+    "source": "U.S. EPA Particulate Matter AQI Designations and Health Statements",
     "categories": [
       {
         "category": "Good",

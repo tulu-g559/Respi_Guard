@@ -7,3 +7,6 @@ langchain-google-genai
 langchain-community 
 langchain-pinecone
 pinecone-client
+firebase
+firebase-admin
+twilio
