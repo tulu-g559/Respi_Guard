@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Poppins:wght@700;800&family=Rubik+Glitch&family=Michroma&display=swap');
+
 @import "tailwindcss";
 
-/* Add this below the import */
 body {
-  /* Since file is in 'public', we reference it from root '/' */
-  background-image: url('/aero-bg.webp');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed; /* Keeps clouds still while scrolling */
-  background-repeat: no-repeat;
   margin: 0;
   min-height: 100vh;
+  font-family: 'Plus Jakarta Sans', sans-serif; /* Default Body Font */
+  
+  background-image: url("/aero-bg.jpg"); 
+  background-size: cover;            
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
 }

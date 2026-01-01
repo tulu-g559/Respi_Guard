@@ -11,8 +11,8 @@
 - **Panic, Not Pragmatism:** Global AQI standards often flag Indian air as "Hazardous" 24/7, causing alarm fatigue without actionable advice.
 - **Lack of Medical Context:** A general "Avoid Outdoors" warning is useless for an office commuter. Patients need advice tailored to their specific conditions (e.g., Asthma) and medications.
 
-## 🟢 The Solution: Respi-Guard
-Respi-Guard moves beyond passive monitoring to **active health defense**:
+## 🟢 The Solution: RespiGuard
+RespiGuard moves beyond passive monitoring to **active health defense**:
 1.  **🚦 Visual Risk Dashboard:** Converts complex PM2.5 numbers into a simple Red/Yellow/Green traffic light system.
 2.  **🩺 AI Medical Twin:** Uses RAG (Retrieval-Augmented Generation) to give advice based on **your** specific condition and meds.
 3.  **🧠 Pragmatic Risk Engine:** Distinguishes between "Exercise" (Avoid) and "Commute" (Wear N95), tailored to the Indian context.
@@ -77,8 +77,8 @@ In a respiratory emergency, every second counts. One tap triggers:
 
 ### 1. Clone the Repository
 ```
-git clone https://github.com/tulu-g559/Respi-Guard.git
-cd Respi-Guard
+git clone https://github.com/tulu-g559/Respi_Guard.git
+cd RespiGuard
 ```
 ### 2\. Backend Setup
 ```

@@ -1,25 +1,17 @@
-export default function ChatBubble({ sender, text, sources }) {
+export default function ChatBubble({ sender, text }) {
   const isUser = sender === "user";
 
   return (
-    <div className={`my-2 flex ${isUser ? "justify-end" : "justify-start"}`}>
+    <div className={`flex ${isUser ? "justify-end" : "justify-start"}`}>
       <div
-        className={`max-w-xs px-4 py-2 rounded-lg ${
-          isUser ? "bg-teal-600 text-white" : "bg-slate-100 text-gray-800"
+        className={`max-w-[75%] px-4 py-3 rounded-lg shadow-sm text-sm leading-relaxed
+        ${
+          isUser
+            ? "bg-teal-600 text-white rounded-br-none"
+            : "bg-white text-gray-800 rounded-bl-none border"
         }`}
       >
-        <p>{text}</p>
-
-        {!isUser && sources && (
-          <div className="mt-2 text-xs text-gray-500">
-            Sources:
-            <ul className="list-disc ml-4">
-              {sources.map((s, i) => (
-                <li key={i}>{s}</li>
-              ))}
-            </ul>
-          </div>
-        )}
+        {text}
       </div>
     </div>
   );

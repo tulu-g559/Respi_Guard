@@ -73,7 +73,7 @@ def register_routes(app, retriever, llm, db):
             location_link = "GPS Unavailable"
 
         # 3. FETCH DEEP MEDICAL CONTEXT FROM DB
-        # Default Fallbacks (Generic)
+        # Default Fallbacks (Generic / Demo Mode)
         raw_phone = "+919907401925"
         user_name = "Respi-Guard User"
         user_age = "Adult" 
@@ -86,7 +86,18 @@ def register_routes(app, retriever, llm, db):
                 if user_doc.exists:
                     user_data = user_doc.to_dict()
                     
-                    raw_phone = user_data.get("emergency_contact", raw_phone)
+                    # --- FIXED: Fetch Phone from Nested Map ---
+                    # 1. Get the 'emergency_contact' map, default to empty dict if missing
+                    contact_map = user_data.get("emergency_contact", {})
+                    
+                    # 2. Extract 'phone' from that map. If missing, keep the fallback raw_phone.
+                    # We check if contact_map is actually a dict to avoid crashes
+                    if isinstance(contact_map, dict):
+                        raw_phone = contact_map.get("phone", raw_phone)
+                    elif isinstance(contact_map, str):
+                        # Handle case where it might accidentally be saved as just a string
+                        raw_phone = contact_map
+
                     user_name = user_data.get("name", "User")
                     user_age = str(user_data.get("age", "Adult"))
                     
@@ -94,9 +105,9 @@ def register_routes(app, retriever, llm, db):
                     condition = user_data.get("condition", condition) 
                     meds = user_data.get("medications", meds)
                     
-                    print(f"✅ Fetched Data: {user_name} | {condition} | {meds}")
+                    print(f"✅ Fetched Data: {user_name} | {condition} | {meds} | SOS: {raw_phone}")
                 else:
-                    print(f"⚠️ User {uid} not found.")
+                    print(f"⚠️ User {uid} not found. Using defaults.")
             except Exception as e:
                 print(f"❌ Firestore Error: {e}")
         else:
