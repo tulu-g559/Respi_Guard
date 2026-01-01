@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // const API_BASE = "http://localhost:5000/api";
-const API_BASE = import.meta.env.VITE_API_BASE;
+const BASE_URL = import.meta.env.VITE_BACKEND_URL || "http://localhost:5000";
 
 
 export const getAdvisory = async (payload) => {
