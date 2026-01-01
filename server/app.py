@@ -351,6 +351,10 @@ def save_turn(session_id, user_msg, ai_msg):                            #
 # API 1: MORNING ADVISORY
 # =========================
 
+@app.route("/")
+def home():
+    return jsonify({"message": "Respi-Guard API is running."})
+
 @app.route("/api/get-advisory", methods=["POST"])
 def get_advisory():
     data = request.json
