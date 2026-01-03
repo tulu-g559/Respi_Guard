@@ -12,6 +12,7 @@ import MainLayout from "./layouts/MainLayout";
 import SOSGuard from "./guards/SOSGuard";
 import SOSPage from "./pages/SOSPage";
 import Profile from "./pages/Profile";
+import NotFound from "./pages/NotFound";
 
 export default function App() {
   return (
@@ -62,6 +63,7 @@ export default function App() {
 
             <Route path="/onboarding" element={<Onboarding />} />
           </Route>
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </SOSGuard>
     </BrowserRouter>
