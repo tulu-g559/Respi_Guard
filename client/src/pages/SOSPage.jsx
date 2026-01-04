@@ -56,7 +56,7 @@ export default function SOSPage() {
   return (
     <div className="min-h-screen bg-red-50 text-gray-900 flex flex-col relative overflow-hidden font-sans">
       {/* Background Pulse Effect */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-red-200/30 rounded-full blur-3xl animate-pulse pointer-events-none" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-150 h-150 bg-red-200/30 rounded-full blur-3xl animate-pulse pointer-events-none" />
 
       {/* Top Bar: Status */}
       <div className="relative z-10 w-full bg-red-600 text-white px-6 py-4 shadow-md flex items-center justify-between">
@@ -107,8 +107,8 @@ export default function SOSPage() {
             <div className="flex items-center gap-3">
               {speaking ? (
                 // Simple CSS Audio Bars Animation
-                <div className="flex items-end gap-1 h-5">
-                  <div className="w-1 bg-red-500 rounded-full animate-[bounce_1s_infinite] h-3"></div>
+                <div className="flex items-end gap-1 h-5 ">
+                  <div className="w-1 bg-red-500 rounded-full animate-bounce h-3"></div>
                   <div className="w-1 bg-red-500 rounded-full animate-[bounce_1.2s_infinite] h-5"></div>
                   <div className="w-1 bg-red-500 rounded-full animate-[bounce_0.8s_infinite] h-2"></div>
                 </div>

@@ -6,7 +6,7 @@ export default function MainLayout() {
     <>
       <Navbar />
       <main className="pt-12">
-        <Outlet />+{" "}
+        <Outlet />{" "}
       </main>
     </>
   );
