@@ -21,6 +21,28 @@ RespiGuard moves beyond passive monitoring to **active health defense**:
 ---
 
 ## 📸 Screenshots
+<table >
+  <tr>
+    <th align="center">Home Page</th>
+    <th align="center">Dashboard</th>
+    <th align="center">Ask AI</th>
+  </tr>
+  <tr>
+    <td align="center"><img width="1897" height="866" alt="image" src="https://github.com/user-attachments/assets/8ff56546-c756-43c1-9445-20aede7fa518" width="300"/></td>
+    <td align="center"><img width="1901" height="869" alt="image" src="https://github.com/user-attachments/assets/6a500995-08d5-4ffc-b603-ae801771dc77" width="300"/></td>
+    <td align="center"><img width="1901" height="865" alt="image" src="https://github.com/user-attachments/assets/1325e59a-c514-49a4-8552-aa9d6912596e" width="300"/></td>
+  </tr>
+  <tr>
+    <th align="center">User Profile</th>
+    <th align="center">SOS Page</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td align="center" ><img width="1900" height="868" alt="image" src="https://github.com/user-attachments/assets/0b205177-412c-4f92-a6d6-60ad1e37d53b" width="300"/></td>
+    <td align="center"><img width="1900" height="863" alt="image" src="https://github.com/user-attachments/assets/71e9eb29-5313-4c8d-8100-533fdc9c8e9e" width="300"/></td>
+    <td></td>
+  </tr>
+</table>
 
 
 ---
