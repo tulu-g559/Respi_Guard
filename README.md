@@ -1,7 +1,9 @@
 # ⛄RespiGuard: AI-Powered Respiratory Health Assistant
 
 ![React](https://img.shields.io/badge/Frontend-React%20%2B%20Vite-61DAFB) ![Flask](https://img.shields.io/badge/Backend-Flask-000000) ![Gemini](https://img.shields.io/badge/AI-Google%20Gemini-8E75B2) ![Firebase](https://img.shields.io/badge/Database-Firebase-FFCA28)
+
 `created & enhanced during Hack Zenith 2026`
+
 > **“Others measure the air; we measure its impact on you.”** > A personalized medical digital twin that combines real-time hyper-local air quality data with AI-driven clinical guidance to protect respiratory patients. 
  
 ---
